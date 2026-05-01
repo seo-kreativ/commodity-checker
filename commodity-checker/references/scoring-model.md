@@ -1,8 +1,10 @@
 # Scoring Model — 8 Dimensionen
 
+> **Modell-Status:** Das folgende Scoring-Modell ist eine **eigene Bewertungsmethodik** für Content-Qualität und strategischen Aufwand. Die Gewichtung ist eine **heuristische Ableitung** aus öffentlich diskutierten Analysen des Google Content Warehouse Leaks (2024, via Shaun Anderson / Hobo-Web) sowie aus SEO-Praxiserfahrung — sie ist **nicht offiziell von Google bestätigt** und stellt keine Aussage über tatsächliche Ranking-Faktoren dar. Das Modell dient der **internen Priorisierung und Redaktionsstrategie**, nicht als Gleichung für Googles Ranking-Logik.
+
 ## Übersicht
 
-| # | Dimension | Gewicht | Was gemessen wird |
+| # | Dimension | Gewicht | Was bewertet wird |
 |---|-----------|---------|------------------|
 | D1 | Proprietary Data | 22% | Originäre Messdaten, interne Metriken, echte Projektzahlen |
 | D2 | Personal Experience | 20% | Eigene Ausführung der Aufgabe, nicht nur theoretisches Wissen |
@@ -115,7 +117,7 @@
 
 ## D7 — Entity Signals (Gewicht: 3%)
 
-**Kernfrage:** Weiß Google (und der Leser) wer hinter diesem Content steht?
+**Kernfrage:** Ist erkennbar, wer hinter diesem Content steht — für Leser und Suchmaschinen?
 
 | Score | Kriterium |
 |-------|-----------|
@@ -152,9 +154,13 @@
 
 ## Hinweis zur Gewichtung
 
-Die Gewichtung ist eine Annäherung an die Prioritäten des `contentEffort`-Attributs
-aus dem Google API Leak (2024, via Shaun Anderson / Hobo-Web-Analyse). Sie spiegelt
-die Annahme wider, dass Google Originalität und eigene Erfahrung höher gewichtet
-als formale Signale wie Autorenbiografien.
+Die Gewichtung ist eine **eigene heuristische Ableitung** — sie orientiert sich an öffentlich
+diskutierten Merkmalen rund um das `contentEffort`-Attribut aus dem Google Content Warehouse
+Leak (2024, via Shaun Anderson / Hobo-Web-Analyse), kombiniert mit SEO-Praxiserfahrung.
 
-**Diese Gewichtung ist Inference, nicht offiziell bestätigt.**
+Die Leak-Dokumente zeigen, dass Google Attribute wie `contentEffort` verwendet, legen aber
+**keine offiziellen Gewichte oder Formeln** offen. Die 8-Dimensionen-Logik und ihre Gewichtung
+sind eine **eigene Interpretation** und kein verifiziertes Abbild von Googles Ranking-Logik.
+
+**Dieses Modell ist ein Redaktions- und Strategie-Score zur internen Priorisierung —
+kein Ranking-Detektor und keine belegbare Aussage über Googles tatsächliche Gewichtung.**
