@@ -59,9 +59,13 @@ Der Score simuliert Googles `contentEffort`-Attribut aus dem Content Warehouse A
 
 ### Disclaimer
 
-> Dieser Skill ist **nicht mit Google verbunden** und stellt keine offizielle Aussage von Google dar. Alle Bewertungen sind simulierte Einschätzungen auf Basis öffentlich verfügbarer Analysen des Google Content Warehouse Leaks. Es wird keine Garantie auf Richtigkeit oder Einfluss auf das Ranking übernommen.
+> Dieser Skill ist **nicht mit Google verbunden** und stellt keine offizielle Aussage von Google dar. Alle Bewertungen sind simulierte Einschätzungen auf Basis öffentlich verfügbarer Analysen des Google Content Warehouse Leaks. Es wird keine Haftung für Richtigkeit, Vollständigkeit oder Einfluss auf das Ranking übernommen.
 >
 > Der Skill analysiert ausschließlich öffentlich zugängliche URLs. Nutzer sind selbst dafür verantwortlich, dass sie nur Inhalte analysieren, für die sie die entsprechenden Rechte besitzen oder die öffentlich zugänglich sind.
+
+### Datenschutz
+
+> Der Skill verarbeitet ausschließlich öffentlich zugängliche Inhalte. Personenbezogene oder personenbeziehbare Daten werden nicht aktiv gesammelt, gespeichert oder weitergegeben. Nutzer sollten sicherstellen, dass die analysierten URLs keine sensiblen oder geschützten Daten enthalten.
 
 ---
 
@@ -120,9 +124,13 @@ The score simulates Google's `contentEffort` attribute from the Content Warehous
 
 ### Disclaimer
 
-> This skill is **not affiliated with Google** and does not represent any official statement by Google. All scores are simulated estimates based on publicly available analyses of the Google Content Warehouse Leak. No guarantee is made regarding accuracy or influence on search rankings.
+> This skill is **not affiliated with Google** and does not represent any official statement by Google. All scores are simulated estimates based on publicly available analyses of the Google Content Warehouse Leak. No liability is accepted for correctness, completeness or impact on search rankings.
 >
-> This skill only analyzes publicly accessible URLs. Users are responsible for ensuring they only analyze content they own or that is publicly available.
+> This skill only analyzes publicly accessible URLs. Users are solely responsible for ensuring they only analyze content they own or that is publicly available and that no sensitive or protected data is exposed.
+
+### Privacy
+
+> This skill only processes publicly accessible content. No personal or personally identifiable data is actively collected, stored or shared. Users should ensure that the analyzed URLs do not contain sensitive or protected data.
 
 ---
 
