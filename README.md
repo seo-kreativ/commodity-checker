@@ -57,6 +57,12 @@ https://example.com/mein-artikel
 
 Der Score simuliert Googles `contentEffort`-Attribut aus dem Content Warehouse API Leak (2024, via Shaun Anderson / Hobo-Web-Analyse). Die Gewichtung der 8 Dimensionen ist eine Annäherung — **nicht offiziell bestätigt**.
 
+### Disclaimer
+
+> Dieser Skill ist **nicht mit Google verbunden** und stellt keine offizielle Aussage von Google dar. Alle Bewertungen sind simulierte Einschätzungen auf Basis öffentlich verfügbarer Analysen des Google Content Warehouse Leaks. Es wird keine Garantie auf Richtigkeit oder Einfluss auf das Ranking übernommen.
+>
+> Der Skill analysiert ausschließlich öffentlich zugängliche URLs. Nutzer sind selbst dafür verantwortlich, dass sie nur Inhalte analysieren, für die sie die entsprechenden Rechte besitzen oder die öffentlich zugänglich sind.
+
 ---
 
 ## English
@@ -84,8 +90,8 @@ claude skills install commodity-checker.skill
 **Option 2 — From the repository**
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/commodity-checker-skill
-claude skills install ./commodity-checker-skill/commodity-checker
+git clone https://github.com/seo-kreativ/commodity-checker
+claude skills install ./commodity-checker/commodity-checker
 ```
 
 ### Usage
@@ -111,6 +117,12 @@ https://example.com/my-article
 ### Background
 
 The score simulates Google's `contentEffort` attribute from the Content Warehouse API Leak (2024, via Shaun Anderson / Hobo-Web analysis). The weighting of the 8 dimensions is an approximation — **not officially confirmed**.
+
+### Disclaimer
+
+> This skill is **not affiliated with Google** and does not represent any official statement by Google. All scores are simulated estimates based on publicly available analyses of the Google Content Warehouse Leak. No guarantee is made regarding accuracy or influence on search rankings.
+>
+> This skill only analyzes publicly accessible URLs. Users are responsible for ensuring they only analyze content they own or that is publicly available.
 
 ---
 
