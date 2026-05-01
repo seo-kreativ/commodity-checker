@@ -2,7 +2,8 @@
 name: commodity-checker
 description: >
   Analysiert URLs oder Content-Texte auf Commodity-Gehalt und bewertet sie mit einem
-  simulierten contentEffort-Score (basierend auf dem Google API Leak 2024).
+  heuristischen Content-Score auf Basis eines eigenen 8-Dimensionen-Modells,
+  das sich an öffentlich diskutierten Leak-Analysen rund um contentEffort orientiert.
   Gibt einen strukturierten Report mit Ampel-Bewertung, 8-Dimensionen-Breakdown,
   Commodity-Fingerprint, 5-Fragen-Selbsttest, SERP-Delta-Analyse und konkrete
   Rescue-Aktionen mit 3 Headline-Rewrite-Vorschlägen aus.
@@ -24,9 +25,11 @@ description: >
 
 # Commodity Checker Skill
 
-Bewertet Content auf Austauschbarkeit (Commodity-Score) und liefert einen
-vollständigen Optimierungsplan. Simuliert Googles `contentEffort`-Attribut
-aus dem API-Leak 2024.
+> **Hinweis:** Dieses Tool ist ein internes Analyse- und Redaktionsinstrument. Es bewertet Content anhand eines eigenen heuristischen 8-Dimensionen-Modells, das sich an öffentlich diskutierten Analysen rund um `contentEffort` orientiert — es trifft keine Aussage über Googles tatsächliche Ranking-Logik.
+
+Bewertet Content auf Austauschbarkeit und liefert einen vollständigen Optimierungsplan.
+Das Scoring-Modell ist eine eigene heuristische Annäherung an öffentlich diskutierte
+Signale rund um `contentEffort` (Google Content Warehouse Leak 2024, nicht offiziell bestätigt).
 
 **Vor der ersten Ausführung**: Lies beide Reference-Dateien:
 - `references/scoring-model.md` — 8-Dimensionen-Rubrik mit Beispielen
@@ -128,8 +131,7 @@ Lies `references/scoring-model.md` und bewerte jede der 8 Dimensionen auf einer 
 Berücksichtige dabei SERP-Kontext aus Phase 2: Wenn alle Konkurrenten ebenfalls niedrig in D1 sind, ist das ein Chancen-Signal.
 
 **WICHTIG — Transparenz-Pflicht**: Im Report immer klar kennzeichnen:
-> *Diese Bewertung ist eine simulierte Annäherung an Googles `contentEffort`-Attribut,
-> basierend auf dem Content-Warehouse-API-Leak 2024 (Inference, nicht offiziell bestätigt).*
+> *Dieser Score basiert auf einem eigenen heuristischen Modell, das sich an öffentlich diskutierten Analysen rund um `contentEffort` orientiert (Google Content Warehouse Leak 2024, Interpretation — nicht offiziell bestätigt). Er trifft keine Aussage über Googles tatsächliche Ranking-Logik.*
 
 Berechnung:
 ```
@@ -162,7 +164,7 @@ Rohwert =
 | F2 | Eigene Daten: Min. 1 Datenpunkt den nur der Autor erheben konnte? | **Ja** = gut | ✅/❌ |
 | F3 | Profi-Test: Erfährt ein Branchenexperte wirklich etwas Neues? | **Ja** = gut | ✅/❌ |
 | F4 | Meinungstest: Klare Positionierung vorhanden die der Autor verteidigt? | **Ja** = gut | ✅/❌ |
-| F5 | Vermisst-Test: Würde jemand diese Seite vermissen wenn offline? | **Ja** = gut | ✅/❌ |
+| F5 | Vermisst-Test: Hätte diese Seite einen klaren Verlust für Leser oder das Team, weil dort etwas Einzigartiges dokumentiert ist? | **Ja** = gut | ✅/❌ |
 
 Selbsttest-Score: Anzahl positiver Antworten / 5
 
@@ -180,7 +182,7 @@ Report-Struktur (in dieser Reihenfolge):
 **Selbsttest:** [X]/5 positiv
 **SERP-Differenzierung:** [1–5]/5 (oder "nicht analysiert")
 
-> ⚠️ *Simulation: basierend auf Google API Leak 2024 · Inference · nicht offiziell bestätigt*
+> ⚠️ *Heuristisches Modell · orientiert an öffentlich diskutierten Leak-Analysen · keine offizielle Google-Aussage*
 
 ---
 
@@ -230,7 +232,7 @@ Report-Struktur (in dieser Reihenfolge):
 | F2 | Eigene Daten | Ja | ✅/❌ | [1 Satz] |
 | F3 | Profi-Test | Ja | ✅/❌ | [1 Satz] |
 | F4 | Meinungstest | Ja | ✅/❌ | [1 Satz] |
-| F5 | Vermisst-Test | Ja | ✅/❌ | [1 Satz] |
+| F5 | Verlust-Test | Ja | ✅/❌ | [1 Satz] |
 | | **Gesamt** | | **[X]/5** | |
 
 ---
