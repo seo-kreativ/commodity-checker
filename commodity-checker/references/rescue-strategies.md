@@ -2,6 +2,8 @@
 
 ## Die 6 Commodity-Fingerprints (DACH)
 
+> **Hinweis:** Die folgenden Fingerprints sind **heuristische Red Flags** für austauschbaren Content. Sie beschreiben typische Muster mit erhöhtem Substitutionsrisiko durch KI-gestützte Suchergebnisse und standardisierte Inhalte — keine offizielle Google-Klassifikation. Das Framework dient der internen Redaktions- und Content-Strategie.
+
 ---
 
 ### Pattern A — Tipps-Liste
@@ -130,14 +132,14 @@
 
 ---
 
-### Pattern F — Non-Commodity (kein Match)
+### Pattern F — Already Non-Commodity
 
 **Erkennungsmerkmale:** Keiner der obigen Patterns trifft zu. Content hat bereits:
 - Klare eigene Perspektive
 - Mindestens einen proprietären Datenpunkt
 - Konkreten persönlichen Kontext
 
-**Rescue-Strategie:** Nicht reparieren, sondern optimieren:
+**Strategie:** Nicht reparieren, sondern optimieren:
 1. Prüfen ob Headline den einzigartigen Kern bereits klar kommuniziert
 2. Prüfen ob D7 (Entity Signals) optimiert ist — oft der einfachste Quick-Win
 3. SERP-Delta prüfen: Ist der Differenzierungs-Vorteil bereits in der Meta Description kommuniziert?

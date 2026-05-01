@@ -85,7 +85,7 @@ Extrahiere aus dem HTML/Markdown:
    - Pattern C: Blind-Vergleich ("X vs Y", "Vor- und Nachteile")
    - Pattern D: Ratgeber-Standard ("Der komplette Guide", "Alles über X")
    - Pattern E: Anleitung-Klon ("So geht X", "Schritt-für-Schritt")
-   - Pattern F: Non-Commodity (kein Match) — weiter zu Phase 2
+   - Pattern F: Already Non-Commodity (kein Match) — weiter zu Phase 2
 
 2. **Keyword-Extraktion** (für SERP-Delta in Phase 2):
    Primäres Keyword aus Title/H1 ableiten (2–4 Wörter).
