@@ -1,6 +1,6 @@
 # Scoring Model — 8 Dimensionen
 
-> **Modell-Status:** Das folgende Scoring-Modell ist eine **eigene Bewertungsmethodik** für Content-Qualität und strategischen Aufwand. Die Gewichtung ist eine **heuristische Ableitung** aus öffentlich diskutierten Analysen des Google Content Warehouse Leaks (2024, via Shaun Anderson / Hobo-Web) sowie aus SEO-Praxiserfahrung — sie ist **nicht offiziell von Google bestätigt** und stellt keine Aussage über tatsächliche Ranking-Faktoren dar. Das Modell dient der **internen Priorisierung und Redaktionsstrategie**, nicht als Gleichung für Googles Ranking-Logik.
+> **Modell-Status:** Das folgende Scoring-Modell ist eine eigene Bewertungsmethodik für Content-Qualität und strategischen Aufwand. Die Gewichtung ist eine **eigene heuristische Annäherung** auf Basis öffentlich diskutierter Analysen rund um das Google Content Warehouse Leak (2024, u. a. Shaun Anderson / Hobo-Web) sowie SEO-Praxiserfahrung; sie ist **nicht offiziell von Google bestätigt** und stellt keine Aussage über tatsächliche Ranking-Faktoren dar. Das Modell dient der internen Priorisierung und Redaktionsstrategie, nicht als Abbild von Googles Ranking-Logik.
 
 ## Übersicht
 
@@ -154,13 +154,20 @@
 
 ## Hinweis zur Gewichtung
 
-Die Gewichtung ist eine **eigene heuristische Ableitung** — sie orientiert sich an öffentlich
-diskutierten Merkmalen rund um das `contentEffort`-Attribut aus dem Google Content Warehouse
-Leak (2024, via Shaun Anderson / Hobo-Web-Analyse), kombiniert mit SEO-Praxiserfahrung.
+Die Gewichtung ist eine **eigene heuristische Annäherung** auf Basis öffentlich diskutierter
+Analysen rund um das `contentEffort`-Attribut aus dem Google Content Warehouse Leak
+(2024, via Shaun Anderson / Hobo-Web-Analyse), kombiniert mit SEO-Praxiserfahrung.
 
-Die Leak-Dokumente zeigen, dass Google Attribute wie `contentEffort` verwendet, legen aber
-**keine offiziellen Gewichte oder Formeln** offen. Die 8-Dimensionen-Logik und ihre Gewichtung
-sind eine **eigene Interpretation** und kein verifiziertes Abbild von Googles Ranking-Logik.
+Die Leak-Dokumente **werden so interpretiert**, dass Google Attribute wie `contentEffort`
+verwendet — offizielle Gewichte oder Formeln legen sie jedoch nicht offen. Die
+8-Dimensionen-Logik und ihre Gewichtung sind eine **eigene Interpretation** und kein
+verifiziertes Abbild von Googles Ranking-Logik.
 
 **Dieses Modell ist ein Redaktions- und Strategie-Score zur internen Priorisierung —
 kein Ranking-Detektor und keine belegbare Aussage über Googles tatsächliche Gewichtung.**
+
+---
+
+*Dieses Modell ist für interne Content-Bewertung gedacht. Es ersetzt keine offizielle
+Google-Dokumentation. Wo Quellenlage und Interpretation auseinandergehen, wird dies
+explizit kenntlich gemacht.*
