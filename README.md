@@ -59,7 +59,9 @@ Das Scoring-Modell ist eine **eigene heuristische Annäherung** auf Basis öffen
 
 ### Disclaimer
 
-> Dieser Skill ist **nicht mit Google verbunden** und stellt keine offizielle Aussage von Google dar. Alle Bewertungen sind simulierte Einschätzungen auf Basis öffentlich verfügbarer Analysen des Google Content Warehouse Leaks. Es wird keine Haftung für Richtigkeit, Vollständigkeit oder Einfluss auf das Ranking übernommen.
+> Dieser Skill ist **nicht mit Google verbunden** und stellt keine offizielle Aussage von Google dar. Alle Bewertungen sind heuristische Einschätzungen auf Basis einer eigenen Bewertungsmethodik, die sich an öffentlich diskutierten Leak-Interpretationen orientiert — keine belegte Aussage über Googles tatsächliche Ranking-Logik. Es wird keine Haftung für Richtigkeit, Vollständigkeit oder Einfluss auf das Ranking übernommen.
+>
+> Dieses Tool ersetzt keine Rechts-, SEO- oder Compliance-Beratung.
 >
 > Der Skill analysiert ausschließlich öffentlich zugängliche URLs. Nutzer sind selbst dafür verantwortlich, dass sie nur Inhalte analysieren, für die sie die entsprechenden Rechte besitzen oder die öffentlich zugänglich sind.
 
@@ -124,7 +126,9 @@ The scoring model is a **proprietary heuristic approximation** based on publicly
 
 ### Disclaimer
 
-> This skill is **not affiliated with Google** and does not represent any official statement by Google. All scores are simulated estimates based on publicly available analyses of the Google Content Warehouse Leak. No liability is accepted for correctness, completeness or impact on search rankings.
+> This skill is **not affiliated with Google** and does not represent any official statement by Google. All scores are heuristic estimates based on a proprietary evaluation methodology oriented around publicly discussed leak interpretations — not a verified statement about Google's actual ranking logic. No liability is accepted for correctness, completeness or impact on search rankings.
+>
+> This tool does not replace legal, SEO, or compliance advice.
 >
 > This skill only analyzes publicly accessible URLs. Users are solely responsible for ensuring they only analyze content they own or that is publicly available and that no sensitive or protected data is exposed.
 
