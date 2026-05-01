@@ -295,7 +295,7 @@ Original: `[aktuelle Überschrift]`
 - Headline-Rewrites nur wenn proprietary elements vorhanden; sonst zuerst die Material-Fragen stellen
 - SERP-Delta: wenn top-3 nicht ladbar, Fingerprint aus Snippet schätzen und kennzeichnen
 - Bei sehr kurzem Content (< 400 Wörter): Quick-Mode kennzeichnen, D1–D5 bewerten, D6–D8 als "nicht beurteilbar"
-- Disclaimer zur contentEffort-Simulation nie weglassen
+- Heuristik-Hinweis im Report nie weglassen (siehe Transparenz-Pflicht Phase 3)
 
 ---
 
