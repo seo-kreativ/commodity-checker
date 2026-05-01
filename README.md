@@ -29,8 +29,8 @@ claude skills install commodity-checker.skill
 **Option 2 — Aus dem Repository**
 
 ```bash
-git clone https://github.com/DEIN-USERNAME/commodity-checker-skill
-claude skills install ./commodity-checker-skill/commodity-checker
+git clone https://github.com/seo-kreativ/commodity-checker
+claude skills install ./commodity-checker/commodity-checker
 ```
 
 ### Verwendung
