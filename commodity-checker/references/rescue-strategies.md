@@ -12,7 +12,7 @@
 - Ton: Unpersönlich, "man sollte", "es ist wichtig"
 - Fehlend: Verbindung zwischen Punkten, keine Gewichtung, kein Kontext wann welcher Tipp gilt
 
-**Typisches Risiko:** Komplett KI-replizierbar in < 60 Sekunden. Jeder GPT-Prompt mit dem Keyword erzeugt dasselbe.
+**Typisches Risiko:** Sehr leicht KI-replizierbar. Ein generischer Prompt mit dem Keyword tendiert dazu, inhaltlich sehr ähnliche Ergebnisse zu erzeugen.
 
 **Rescue-Strategie:**
 1. Liste auf 3 Punkte reduzieren — und jeden mit einem eigenen Fallbeispiel belegen
@@ -40,7 +40,7 @@
 - Content: Wikipedia-Niveau, keine eigene Perspektive, keine Beispiele aus eigenem Kontext
 - Fehlend: Eigene Meinung zur Relevanz, konkreter Anwendungsfall aus der Praxis
 
-**Typisches Risiko:** Definitionen sind per se Commodity. Google kann eine AI Overview direkt aus strukturierten Daten generieren — der Artikel wird übersprungen.
+**Typisches Risiko:** Definitionen sind per se Commodity. Bei rein strukturierten Definitionen besteht das Risiko, dass eine AI Overview den Artikel in der Suche überspringt.
 
 **Rescue-Strategie:**
 1. Definitionsartikel nicht als Traffic-Treiber positionieren — sondern als semantisches Fundament (interner Link-Hub)
@@ -63,7 +63,7 @@
 - Struktur: Tabelle Vor-/Nachteile, neutraler Vergleich, "Es kommt drauf an"-Fazit
 - Fehlend: Eigene Entscheidung, eigene Erfahrung mit beiden Optionen, Kontext wann welche Wahl richtig ist
 
-**Typisches Risiko:** Vergleiche ohne eigene Entscheidungshistorie sind exakt was KI besser kann als Mensch. Der Artikel wird von AI Overviews vollständig ersetzt.
+**Typisches Risiko:** Vergleiche ohne eigene Entscheidungshistorie sind inhaltlich leicht durch KI abdeckbar. Es besteht erhöhtes Risiko, dass solche Artikel durch AI Overviews an Sichtbarkeit verlieren.
 
 **Rescue-Strategie:**
 1. Eigene Entscheidung benennen: "Ich nutze X — hier ist warum"
@@ -114,7 +114,7 @@
 - Struktur: Nummerierte Schritte, Screenshots von öffentlichen Oberflächen, Standard-Flow
 - Fehlend: Eigenheiten und Fallstricke aus echter Ausführung, Kontext wann Schritte abweichen
 
-**Typisches Risiko:** Tutorials ohne eigene Ausführung werden von Tool-Dokumentationen und offiziellen Guides sofort outranked. Und: Wer das Tool nicht selbst benutzt, merkt nicht wenn sich die UI ändert.
+**Typisches Risiko:** Tutorials ohne eigene Ausführung tendieren dazu, von Tool-Dokumentationen und offiziellen Guides outrankt zu werden. Und: Wer das Tool nicht selbst benutzt, merkt nicht wenn sich die UI ändert.
 
 **Rescue-Strategie:**
 1. Fallstricke aus eigener Ausführung benennen: "Bei Schritt 3 passiert folgender Fehler regelmäßig — hier ist die Lösung"
